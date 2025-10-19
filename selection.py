@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # Bot Configuration
-BOT_TOKEN = "8420197585:AAFMuzgaetEsUA9zo2FQlOKZlY2E5__gYMo"
+BOT_TOKEN = "8259434956:AAFVnDxlamm8A_H6mEXfoXCS8OnWD7-Py8Y"
 
 # Enable logging
 logging.basicConfig(
@@ -534,4 +534,5 @@ def main():
     application.run_polling()
 
 if __name__ == '__main__':
+
     main()
